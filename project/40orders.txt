@@ -1,0 +1,163 @@
+Order SES Blue
+Order SES Red
+Order SE Grey
+Order SE Grey
+Picker Alice ready
+Order S Beige
+Order SES Green
+Order SE White
+Picker Alice pick 1
+Order SE Silver
+Picker Alice pick 2
+Picker Alice pick 3
+Order SE Tan
+Order S Green
+Order SES Graphite
+Order S White
+Picker Bob ready
+Picker Alice pick 4
+Picker Bob pick 1
+Picker Alice pick 5
+Picker Bob pick 2
+Order SES Grey
+Picker Bob pick 3
+Picker Alice pick 6
+Picker Bob pick 4
+Picker Bob pick 5
+Picker Alice pick 7
+Order SE Blue
+Picker Alice pick 8
+Order S Gold
+Picker Alice to Marshaling
+Picker Bob pick 6
+Picker Bob pick 7
+Picker Alice ready
+Picker Alice pick 1
+Sequencer Sue sequences
+Picker Alice pick 2
+Order S Tan
+Order S Blue
+Loader Bill loads
+Order S Gold
+Picker Bob pick 8
+Picker Alice pick 3
+Picker Bob to Marshaling
+Picker Alice pick 4
+Picker Bob ready
+Picker Alice pick 5
+Picker Bob pick 1
+Picker Bob pick 2
+Order SEL Beige
+Order S Blue
+Order SEL Black
+Order SES Grey
+Picker Alice pick 6
+Picker Bob pick 3
+Sequencer Sue sequences
+Picker Bob pick 4
+Picker Alice pick 7
+Loader Bill loads
+Picker Alice pick 8
+Picker Bob pick 5
+Order SE Graphite
+Order SES Black
+Picker Alice to Marshaling
+Picker Bob pick 6
+Picker Alice ready
+Sequencer Sue sequences
+Order SE Silver
+Order SEL Silver
+Picker Bob pick 7
+Replenisher Ruby replenish A 1 1 2
+Picker Bob pick 8
+Loader Bill loads
+Picker Bob to Marshaling
+Sequencer Sue sequences
+Picker Bob ready
+Loader Bill loads
+Picker Alice pick 1
+Picker Bob pick 1
+Picker Alice pick 2
+Picker Bob pick 2
+Order SE Gold
+Picker Alice pick 3
+Order S Blue
+Picker Alice pick 4
+Picker Bob pick 3
+Picker Bob pick 4
+Picker Alice pick 5
+Order SES Gold
+Picker Bob pick 5
+Picker Bob pick 6
+Picker Alice pick 6
+Picker Alice pick 7
+Order SE Green
+Picker Bob pick 7
+Order S White
+Picker Bob pick 8
+Sequencer Sue sequences
+Loader Bill loads
+Picker Bob to Marshaling
+Sequencer Sue sequences
+Loader Bill loads
+Picker Bob ready
+Picker Alice pick 8
+Order SE Graphite
+Order SE Tan
+Picker Alice to Marshaling
+Picker Alice ready
+Picker Alice pick 1
+Picker Alice pick 2
+Order SE Blue
+Picker Bob pick 1
+Picker Bob pick 2
+Picker Bob pick 3
+Picker Bob pick 4
+Order SEL Tan
+Order SEL Grey
+Picker Bob pick 5
+Picker Alice pick 3
+Order S Red
+Picker Alice pick 4
+Order S Birch
+Picker Bob pick 6
+Picker Alice pick 5
+Picker Alice pick 6
+Picker Bob pick 7
+Picker Alice pick 7
+Picker Alice pick 8
+Order SE Blue
+Picker Bob pick 8
+Picker Alice to Marshaling
+Sequencer Sue sequences
+Loader Bill loads
+Picker Alice ready
+Picker Bob to Marshaling
+Sequencer Sue sequences
+Loader Bill loads
+Picker Bob ready
+Order S Grey
+Picker Bob pick 1
+Picker Alice pick 1
+Picker Bob pick 2
+Picker Bob pick 3
+Picker Alice pick 2
+Picker Alice pick 3
+Picker Bob pick 4
+Picker Alice pick 4
+Picker Alice pick 5
+Picker Alice pick 6
+Picker Bob pick 5
+Picker Bob pick 6
+Picker Alice pick 7
+Picker Bob pick 7
+Picker Alice pick 8
+Picker Bob pick 8
+Picker Alice to Marshaling
+Sequencer Sue sequences
+Loader Bill loads
+Picker Alice ready
+Picker Bob to Marshaling
+Sequencer Sue sequences
+Loader Bill loads
+Picker Bob ready
