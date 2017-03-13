@@ -2,43 +2,56 @@ package warehouse;
 
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
-
 
 public class Warehouse {
+  protected static ArrayList<PickingSet> ordersOnHold;
+  private String sequencer;
+  private String loader;
+  private String replenisher;
+  protected static ArrayList<PickingSet> ordersInTruck;
+  private ArrayList<Picker> pickersList;
+  protected static HashMap<Integer, Integer> storage;
+  private int pickingsetIndex;
+  private PickingSet pickset;
   
-  private static String sequencer;
-  private static String loader;
-  private static String replenisher;
-  private static List<Picker> pickerlist;
-  private static ArrayList<List<Integer>> ordersOnHold;
-  private static ArrayList<List<Integer>> ordersInTruck;
-  private static HashMap<String, Integer> storage;
-  
-  
-  public Warehouse(String sequencer, String loader, String replenisher, List<Picker> pickerlist) {
-    Warehouse.sequencer = sequencer;
-    Warehouse.loader = loader;
-    Warehouse.replenisher = replenisher;
-    Warehouse.pickerlist = pickerlist;
-    Warehouse.ordersOnHold = new ArrayList<List<Integer>>();
-    Warehouse.ordersInTruck = new ArrayList<List<Integer>>();
-    Warehouse.storage = new HashMap<String, Integer>(96, (float) 1.1);
+  public Warehouse(String sequencer, String loader, String replenisher,
+      HashMap<Integer, Integer> storage) {
+    this.sequencer = sequencer;
+    this.loader = loader;
+    this.replenisher = replenisher;
+    this.pickersList = new ArrayList<Picker>();
+    Warehouse.ordersOnHold = new ArrayList<PickingSet>();
+    Warehouse.ordersInTruck = new ArrayList<PickingSet>();
+    Warehouse.storage = storage;
+    this.pickingsetIndex = 0;
+    this.pickset = new PickingSet(this.pickingsetIndex);
   }
   
-  public void addPickingSet(List<Integer> pickingSet) {
-    ordersOnHold.add(pickingSet);
-  }
-  
-  public void assignPicker() {
-    for (int i = 0; i < pickerlist.size(); i++) {
-      if (pickerlist.get(i).isReady()){
-        Task task = new Task(pickerlist.get(i));
-      }
+  public void addOrder(Order order) {    
+    this.pickset.addOrder(order);
+    
+    if (this.pickset.isFull()) {
+      Warehouse.ordersOnHold.add(pickset);
+      this.pickingsetIndex ++;
+      this.pickset = new PickingSet(this.pickingsetIndex);
     }
   }
   
+  public Picker assignPicker() {
+    for (Picker picker: this.pickersList) {
+      if (picker.checkStatus()) {
+        return picker;
+      }
+    }
+    return null;
+  }
+  
+  public Picker addPicker(String name) {
+    Picker picker = new Picker(name);
+    return picker;
+  }
+  
   public void deliver() {
-    
+    System.out.println("In deliver");
   }
 }
