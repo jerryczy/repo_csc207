@@ -18,7 +18,7 @@ public class WarehousePicking {
    *  and the value is the position.
    */
   private static HashMap<String, String> readCsv() {
-    File traversalInput = new File(System.getProperty("user.dir") + "/src/traversal_table.csv");
+    File traversalInput = new File(System.getProperty("user.dir") + "/traversal_table.csv");
     HashMap<String, String> map = new HashMap<>();
     try {
       BufferedReader br = new BufferedReader(new FileReader(traversalInput));

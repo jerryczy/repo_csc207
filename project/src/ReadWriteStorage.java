@@ -10,14 +10,13 @@ import java.util.Map.Entry;
 public class ReadWriteStorage {
   
   public static HashMap<String, Integer> readstorage(){
-    HashMap<String, Integer> storage = new HashMap<String, Integer>();
-    
-    String translationFile = "src/initial.csv";
+    HashMap<String, Integer> storage = new HashMap<>();
+
     BufferedReader brr = null;
-    String line = "";
+    String line;
     
     try {
-      brr = new BufferedReader(new FileReader(translationFile));
+      brr = new BufferedReader(new FileReader(new File(System.getProperty("user.dir")+"/initial.csv")));
 
       while((line = brr.readLine()) != null) {
           String[] data = line.split(",");

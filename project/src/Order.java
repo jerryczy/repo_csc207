@@ -26,7 +26,7 @@ public class Order {
   
   public void setSKUs() {
     String path = System.getProperty("user.dir");
-    String translationFile = path + "/src/translation.csv";
+    String translationFile = path + "/translation.csv";
     BufferedReader br = null;
     String line = "";
     
