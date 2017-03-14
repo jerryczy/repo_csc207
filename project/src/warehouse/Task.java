@@ -1,6 +1,9 @@
 package warehouse;
 
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.ArrayList;
+import java.util.HashMap;
 
 public class Task {
   private ArrayList<Integer> orderSequencing;
@@ -26,11 +29,32 @@ public class Task {
   }
 
   public void sequence(String sequencer) {
-    System.out.println("Sequencer " + sequencer + " sequenceing.");
+    System.out.println(sequencer + " sequence the next order.");
   }
 
   public void load(String loader) {
-    System.out.println("Loader " + loader + " loading.");
+    System.out.println("Loader " + loader + " loading");
+  }
+  
+  public void outputFile() {
+    String header = "Zone, Aisle, Rack, Level, Amount";
+    HashMap<Integer, Integer> storage = Warehouse.storage;  // storage <sku, quantity>
+    HashMap<String, String> traversal = WarehousePicking.map;   // map <sku, location>
+    try {
+      FileWriter finalOutput = new FileWriter("final.csv");
+      finalOutput.append(header.toString() + "\n");
+      for (int i = 0; i < storage.size(); i++) {
+        String location = traversal.get(((Integer) i).toString());
+        for (int j = 0; j < (location.length()); j++) {
+          finalOutput.append(location.charAt(j) + ",");
+        }
+        finalOutput.append(storage.get((Integer) i).toString() + "\n");
+      }
+      finalOutput.close();
+      System.out.println("final.csv generated");
+    } catch (IOException except) {
+      except.printStackTrace();
+    }
   }
 
   public void checkReplanishStorage(Integer sku) {
@@ -40,5 +64,4 @@ public class Task {
       Warehouse.storage.put(sku, itemNum);
     }
   }
-  
 }
