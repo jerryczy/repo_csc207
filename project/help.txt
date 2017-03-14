@@ -8,4 +8,4 @@ In project/src, type in java Main
 
 3. Customized input file is located in project folder with the name 40orders.csv, you 	might as well test our code with this input file.
 
-4. Output files [final.csv, orders.csv] will be both located in project folder after running the program. 
+4. Output files [final.csv, orders.csv] will be both located in project/src folder after running the program. 
