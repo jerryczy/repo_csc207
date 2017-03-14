@@ -1,0 +1,7 @@
+Zhiyuan Cheng(1002526625)
+1. Contributed in design and drawing UML diagram.
+2. Set up program frame.
+3. Participate in writing parts of code.
+4. Write 40orders.txt
+5. Merge codes from different members, fix all checkstyle error and add java doc.
+=============================
