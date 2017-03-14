@@ -32,7 +32,7 @@ public class Main {
     
     // Read input file and do the corresponding task
     try {
-      File eventInput = new File(System.getProperty("user.dir") + "/16orders.txt");
+      File eventInput = new File(System.getProperty("user.dir")+ "/16orders.txt");
       BufferedReader br = new BufferedReader(new FileReader(eventInput));
 
       String line = br.readLine();
