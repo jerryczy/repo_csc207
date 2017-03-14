@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-import java.util.List;
 
 public class PickingSet {
   private ArrayList<Integer> order;
@@ -10,19 +9,29 @@ public class PickingSet {
     this.index = index;
   }
   
+  /**
+   * Add a order to the PickingSet.
+   * @param newOrder    A new order.
+   * @return    Return true of this pickingSet is not full otherwise, return false.
+   */
   public boolean addOrder(Order newOrder) {
     if (!isFull()) {
-      int frontSKU = newOrder.getSKUfront();
-      int backSKU = newOrder.getSKUback();
-      this.order.add(frontSKU);
-      this.order.add(backSKU);
-      System.out.println("Order Received, frontSKU: "+frontSKU+", backSKU: "+backSKU);
+      int frontSku = newOrder.getSkuFront();
+      int backSku = newOrder.getSkuBack();
+      this.order.add(frontSku);
+      this.order.add(backSku);
+      System.out.println("Order Received, frontSKU: " + frontSku + ", backSKU: " + backSku);
       return true;
     } else {
       return false;
     }
   }
   
+  /**
+   * Check if this pickingSet if full. A full pickingSet would contains 4 orders
+   *  or 8 fascias (sku numbers).
+   * @return return true if there are 8 number of items in this pickingset.
+   */
   public boolean isFull() {
     if (this.order.size() >= 8) {
       return true;

@@ -1,4 +1,3 @@
-
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -14,8 +13,7 @@ import java.util.List;
 public class WarehousePicking {
   /**
    * Convert the traversal_table.csv file into a HashMap.
-   * @return a HashMap where the key is a String represent the sku number,
-   *  and the value is the position.
+   * @return a HashMap where the key is the sku number, and the value is the position.
    */
   private static HashMap<String, String> readCsv() {
     File traversalInput = new File(System.getProperty("user.dir") + "/traversal_table.csv");
@@ -49,7 +47,7 @@ public class WarehousePicking {
     List<String> result = new ArrayList<>();
     for (int i = 0; i < skus.size(); i++) {
       fromCsv.add(map.get(skus.get(i).toString()));
-//      System.out.println(skus.get(i).toString());
+      //System.out.println(skus.get(i).toString());
     }
     for (int i = 0; i < fromCsv.size();i++) {
       result.add(fromCsv.get(i));

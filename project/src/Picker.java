@@ -1,4 +1,3 @@
-
 public class Picker {
   private String name;
   private boolean status;
