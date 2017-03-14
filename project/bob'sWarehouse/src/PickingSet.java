@@ -16,6 +16,7 @@ public class PickingSet {
       int backSKU = newOrder.getSKUback();
       this.order.add(frontSKU);
       this.order.add(backSKU);
+      System.out.println("Order Received, frontSKU: "+frontSKU+", backSKU: "+backSKU);
       return true;
     } else {
       return false;

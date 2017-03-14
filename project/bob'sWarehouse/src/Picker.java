@@ -5,7 +5,7 @@ public class Picker {
   
   public Picker(String name) {
     this.name = name;
-    setStatus(true);
+    setStatus(false);
   }
   
   public boolean checkStatus() {
@@ -14,5 +14,9 @@ public class Picker {
   
   public void setStatus(boolean status) {
     this.status = status;
+  }
+  
+  public String getName() {
+    return this.name;
   }
 }
