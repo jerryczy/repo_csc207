@@ -1,0 +1,11 @@
+1. How to compile:
+
+Go to project/src, type in javac *.java
+
+2. How to run:
+
+In project/src, type in java Main
+
+3. Customized input file is located in project folder with the name 40orders.csv, you 	might as well test our code with this input file.
+
+4. Output files [final.csv, orders.csv] will be both located in project folder after running the program. 
