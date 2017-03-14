@@ -5,3 +5,9 @@ Zhiyuan Cheng(1002526625)
 4. Write 40orders.txt
 5. Merge codes from different members, fix all checkstyle error and add java doc.
 =============================
+Fengqi Bao(1000047264)
+1. Contributed in developing the Main.java, Order.java, Picker.java, Task.java, ReadWriteStorage.java, PickingSet.java, Warehouse.java and WriteOrdersTruck.java
+2. Write the initial.csv
+3. Tested and modified 40orders.txt
+4. Contributed in drawing UML diagram
+=============================
