@@ -10,7 +10,7 @@ public class WriteOrdersTruck {
   public static void initialFinalOrders(){
     PrintWriter pw = null;
     try {
-      pw = new PrintWriter(new File("src\\orders.csv"));
+      pw = new PrintWriter(new File("orders.csv"));
     } catch (FileNotFoundException e) {
       // TODO Auto-generated catch block
       e.printStackTrace();
@@ -24,7 +24,7 @@ public class WriteOrdersTruck {
     int index = pickingset.getIndex();
     
     try {
-      pw = new PrintWriter(new FileWriter("src\\orders.csv", true));
+      pw = new PrintWriter(new FileWriter("orders.csv", true));
     } catch (FileNotFoundException e) {
       // TODO Auto-generated catch block
       e.printStackTrace();

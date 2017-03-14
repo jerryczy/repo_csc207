@@ -12,7 +12,7 @@ public class ReadWriteStorage {
   public static HashMap<String, Integer> readstorage(){
     HashMap<String, Integer> storage = new HashMap<String, Integer>();
     
-    String translationFile = "src\\initial.csv";
+    String translationFile = "src/initial.csv";
     BufferedReader brr = null;
     String line = "";
     
@@ -48,7 +48,7 @@ public class ReadWriteStorage {
   public static void writestorage(HashMap<String, Integer> storage){
     PrintWriter pw = null;
     try {
-      pw = new PrintWriter(new File("src\\final.csv"));
+      pw = new PrintWriter(new File("final.csv"));
     } catch (FileNotFoundException e) {
       // TODO Auto-generated catch block
       e.printStackTrace();
