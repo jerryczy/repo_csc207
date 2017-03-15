@@ -11,3 +11,8 @@ Fengqi Bao(1000047264)
 3. Tested and modified 40orders.txt
 4. Contributed in drawing UML diagram
 =============================
+Yue Wang(999975594)
+1. Researched and implemented code for file input/output
+2. Wrote generic software (WarehousePicking class) for returning locations
+3. Organize project files
+4. Wrote test cases and run tests with EclEmma

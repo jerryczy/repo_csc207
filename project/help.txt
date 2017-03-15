@@ -1,11 +1,13 @@
 1. How to compile:
 
-Go to project/src, type in javac *.java
+Go to project/src/wms, type in javac Main.java Order.java Picker.java PickingSet.java ReadWriteStorage.java Task.java Warehouse.java WarehousePicking.java WriteOrdersTruck.java
 
 2. How to run:
 
-In project/src, type in java Main
+In project/src, type in java wms/Main
 
-3. Customized input file is located in project folder with the name 40orders.csv, you 	might as well test our code with this input file.
+3. Customized input file is located in project/src folder with the name 40orders.csv, you 	might as well test our code with this input file.
 
 4. Output files [final.csv, orders.csv] will be both located in project/src folder after running the program. 
+
+5. Test coverage screenshot is attached along in the same folder as this help text.
