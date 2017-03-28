@@ -1,43 +1,43 @@
-Order SES Blue
-Order SES Red
-Order SE Grey
-Order SE Grey
+Order SES Blue #1
+Order SES Red #1
+Order SE Black #1
+Order SE Black #1
+Picker Alice ready #1
+Order S Beige #2
+Order SES Green #2
+Order SE White #2
+Picker Alice pick 37/21 #1
+Order SEL Red #2
+Picker Alice pick 38/22 #1
+Picker Alice pick 21/37 #1
+Order SE Blue #3
+Order S Green #3
+Order SES Black #3
+Order S White #3
+Picker Bob ready #2
+Picker Alice pick 22/38 #1
+Picker Bob pick 9/3 #2
+Picker Alice pick 43 #1
+Picker Bob pick 10/4 #2
+Order SES Red #4
+Picker Bob pick 29/9 #2
+Picker Alice pick 44/43 #1
+Picker Bob pick 30/10 #2
+Picker Bob pick 3/23 #2
+Picker Alice pick 43/44 #1
+Order SE Blue #4
+Picker Alice pick 44 #1
+Order SEL Green #4
+Picker Alice to Marshaling #1
+Picker Bob pick 4/24 #2
+Picker Bob pick 23/29 #2
 Picker Alice ready
-Order S Beige
-Order SES Green
-Order SE White
 Picker Alice pick 1
-Order SE Silver
-Picker Alice pick 2
-Picker Alice pick 3
-Order SE Tan
-Order S Green
-Order SES Graphite
-Order S White
-Picker Bob ready
-Picker Alice pick 4
-Picker Bob pick 1
-Picker Alice pick 5
-Picker Bob pick 2
-Order SES Grey
-Picker Bob pick 3
-Picker Alice pick 6
-Picker Bob pick 4
-Picker Bob pick 5
-Picker Alice pick 7
-Order SE Blue
-Picker Alice pick 8
-Order S Gold
-Picker Alice to Marshaling
-Picker Bob pick 6
-Picker Bob pick 7
-Picker Alice ready
-Picker Alice pick 1
-Sequencer Sue sequences
+Sequencer Sue sequences #1
 Picker Alice pick 2
 Loader Bill loads
-Order S Gold
-Picker Bob pick 8
+Order S White #4
+Picker Bob pick 24/30 #2
 Picker Alice pick 3
 Picker Bob to Marshaling
 Picker Alice pick 4
@@ -47,7 +47,7 @@ Picker Bob pick 1
 Picker Bob pick 2
 Picker Alice pick 6
 Picker Bob pick 3
-Sequencer Sue sequences
+Sequencer Sue sequences #2
 Picker Bob pick 4
 Picker Alice pick 7
 Loader Bill loads
