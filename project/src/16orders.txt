@@ -1,4 +1,7 @@
-Order SES Blue #1
+Sequencer Sue Ready #1
+Loader Bill Ready #1
+Replenisher Ruby Ready
+Order SES Red #1
 Order SES Red #1
 Order SE Black #1
 Order SE Black #1
@@ -6,60 +9,95 @@ Picker Alice ready #1
 Order S Beige #2
 Order SES Green #2
 Order SE White #2
-Picker Alice pick 37/21 #1
-Order SEL Red #2
-Picker Alice pick 38/22 #1
-Picker Alice pick 21/37 #1
-Order SE Blue #3
+Picker Alice pick 21/21 #1
+Order SES Red #2
+Picker Alice pick 21/22 #1
+Picker Alice pick 22/21 #1
+Order SES Red #3
 Order S Green #3
-Order SES Black #3
+Order SEL Black #3
 Order S White #3
 Picker Bob ready #2
-Picker Alice pick 22/38 #1
+Picker Alice pick 22/22 #1
 Picker Bob pick 9/3 #2
-Picker Alice pick 43 #1
+Picker Alice pick 43/43 #1
 Picker Bob pick 10/4 #2
 Order SES Red #4
 Picker Bob pick 29/9 #2
 Picker Alice pick 44/43 #1
 Picker Bob pick 30/10 #2
-Picker Bob pick 3/23 #2
+Picker Bob pick 3/21 #2
 Picker Alice pick 43/44 #1
 Order SE Blue #4
-Picker Alice pick 44 #1
-Order SEL Green #4
+Picker Alice pick 44/44 #1
+Order SEL Beige #4
 Picker Alice to Marshaling #1
-Picker Bob pick 4/24 #2
-Picker Bob pick 23/29 #2
+Sequencer Sue Scan 21 21 22 22 43 43 44 44 #1
+Picker Bob pick 4/22 #2
+Picker Bob pick 21/29 #2
 Picker Alice ready
-Picker Alice pick 1
-Sequencer Sue sequences #1
-Picker Alice pick 2
-Loader Bill loads
-Order S White #4
+Picker Alice pick 21/1 #3
+Sequencer Sue sequences 21 22 21 22 43 44 43 44 #1
+Sequencer Sue Ready #2
+Picker Alice pick 22/2 #3
+Loader Bill Scan 21 22 21 22 43 44 43 44 #1
+Loader Bill loads #1
+Loader Bill Ready #2
+Order S Beige #4
+Picker Bob pick 22/30 #2
+Picker Bob pick 31 #2 // Picker pick the wrong item and scan the wrong item
 Picker Bob pick 24/30 #2
-Picker Alice pick 3
-Picker Bob to Marshaling
-Picker Alice pick 4
+Picker Alice pick 25/21 #3
+Picker Bob to Marshaling #2
+Sequencer Sue Scan 3 4 9 10 21 22 29 30 #2
+Picker Alice pick 26/22 #3
 Picker Bob ready
-Picker Alice pick 5
-Picker Bob pick 1
-Picker Bob pick 2
-Picker Alice pick 6
-Picker Bob pick 3
-Sequencer Sue sequences #2
-Picker Bob pick 4
-Picker Alice pick 7
-Loader Bill loads
-Picker Alice pick 8
-Picker Bob pick 5
+Picker Alice pick 47/25 #3
+Picker Bob pick 21/9 #4
+Picker Bob pick 22/10 #4
+Picker Alice pick 48/26 #3
+Picker Bob pick 35/15 #4
+Sequencer Sue sequences 9 10 29 30 3 4 21 22 #2
+Picker Bob pick 36/16 #4
+Picker Alice pick 1/47 #3
+Sequencer Sue Ready #3
+Loader Bill Scan 9 10 29 30 3 4 21 22 #2
+Loader Bill loads #2
+Picker Alice pick 2/48 #3
+Picker Bob pick 15/21 #4
+Replenisher Ruby replenish A 1 2 0
+Replenisher Ruby Ready
+Loader Bill Ready #3
+Picker Alice to Marshaling #3
+Sequencer Sue Scan 1 2 21 22 25 26 47 48 #3
+Picker Bob pick 16/22 #4
+Replenisher Ruby replenish A 1 2 1
+Sequencer Sue sequences 21 22 25 26 47 48 1 2 #3
+Replenisher Ruby Ready
+Picker Bob pick 9/35 #4
+Sequencer Sue Ready #4
+Picker Bob pick 10/36 #4
+Loader Bill Scan  21 22 25 26 48 47 1 2 #3  // sequencing error
+Sequencer Sue sequences 35 36 25 26 47 48 1 2 #3
+Sequencer Sue Ready #4
+Loader Bill Scan 35 36 25 26 47 48 1 2 #3
+Loader Bill loads #3
+Picker Bob to Marshaling #4
+Sequencer Sue Scan 9 10 15 16 23 24 35 36 #4 // Picker pick the wrong item but scan the right item
+Loader Bill Ready #4
+Picker Alice pick 9
+Picker Alice pick 10
+Picker Alice pick 15
+Picker Alice pick 16
+Picker Alice pick 21
+Picker Alice pick 22
+Picker Alice pick 35
+Picker Alice pick 36
 Picker Alice to Marshaling
-Picker Bob pick 6
-Sequencer Sue sequences
-Picker Bob pick 7
-Replenisher Ruby replenish A 1 1 2
-Picker Bob pick 8
-Loader Bill loads
-Picker Bob to Marshaling
-Sequencer Sue sequences
-Loader Bill loads
+Sequencer Sue Scan 9 10 15 16 21 22 35 36 #4
+Picker Alice Ready
+Sequencer Sue sequences 21 22 35 36 15 16 9 10 #4
+Sequencer Sue Ready
+Loader Bill Scan 21 22 35 36 15 16 9 10 #4
+Loader Bill loads #4
+Loader Bill Ready
